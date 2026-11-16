@@ -1,0 +1,85 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>North Star Bakery | Contact Us</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Contact North Star Bakery</h1>
+        <nav aria-label="Main navigation">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Get in Touch</h2>
+            <p>We would love to hear from you! Contact us with questions about our baked goods, special orders, or upcoming events.</p>
+            <p>For bakery hours and location details, please contact our team.</p>
+        </section>
+
+        <section>
+            <h2>Preorder Request Form</h2>
+            
+            <form action="#" method="get">
+<fieldset>
+    <legend>Customer Preorder Information</legend>
+
+                <p>
+                    <label for="customer-name">Full Name:</label>
+                    <input type="text" id="customer-name" name="customer-name" required>
+                </p>
+
+                <p>
+                    <label for="email">Email Address:</label>
+                    <input type="email" id="email" name="email" required>
+                </p>
+
+                <p>
+                    <label for="phone">Phone Number:</label>
+                    <input type="tel" id="phone" name="phone">
+                </p>
+
+                <p>
+                    <label for="item">Select an Item:</label>
+                    <select id="item" name="item" required>
+                        <option value="">Choose an item</option>
+                        <option value="bread">Fresh Bread</option>
+                        <option value="pastries">Pastries</option>
+                        <option value="cake">Custom Cake</option>
+                    </select>
+                </p>
+
+                <p>
+                    <label for="pickup-date">Preferred Pickup Date:</label>
+                    <input type="date" id="pickup-date" name="pickup-date" required>
+                </p>
+
+                <p>
+                    <label for="message">Special Instructions:</label>
+                    <textarea id="message" name="message" rows="5" cols="40"></textarea>
+                </p>
+
+                <button type="submit">Submit Preorder Request</button>
+                <button type="reset">Clear Form</button>
+            </form>
+            <p>Submitting this demonstration form does not place an actual order.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 North Star Bakery. All rights reserved.</p>
+        <p>Freshly baked with love for our community.</p>
+    </footer>
+</body>
+</html>
