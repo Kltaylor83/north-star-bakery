@@ -1,4 +1,9 @@
 
+const bakeryMessages = {
+  success: "Your favorite has been saved!",
+  error: "Please choose a treat first!"
+};
+
 const bakeryInfo = {
   name: "North Star Bakery",
   category: "Fresh Baked Goods",
@@ -24,7 +29,9 @@ saveFavorite.addEventListener("click", function () {
 if (!isValidBakeryTreat(favorite)) {
 
 
-    favoriteMessage.textContent = "Please choose a treat first!";
+    
+favoriteMessage.textContent = bakeryMessages.error;
+
   } else {
     localStorage.setItem("bakeryFavorite", favorite);
     
