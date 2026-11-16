@@ -31,18 +31,25 @@
         <section>
             <h2>Preorder Request Form</h2>
             
-            <form action="#" method="get">
+            <form id="contactForm" action="#" method="get" novalidate>
+
 <fieldset>
     <legend>Customer Preorder Information</legend>
 
                 <p>
                     <label for="customer-name">Full Name:</label>
                     <input type="text" id="customer-name" name="customer-name" required>
+
+<span id="nameError" style="color: red;"></span>
+
                 </p>
 
                 <p>
                     <label for="email">Email Address:</label>
                     <input type="email" id="email" name="email" required>
+
+<span id="emailError" style="color: red;"></span>
+
                 </p>
 
                 <p>
@@ -81,5 +88,7 @@
         <p>&copy; 2026 North Star Bakery. All rights reserved.</p>
         <p>Freshly baked with love for our community.</p>
     </footer>
+
+<script src="Bakery_c/script.js"></script>
 </body>
 </html>
